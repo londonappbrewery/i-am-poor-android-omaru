@@ -13,12 +13,18 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
         android:text="@string/title"
         android:textStyle="bold"
         android:textSize="50sp"
         />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/textView"
+        app:srcCompat="@drawable/coal"/>
 
     <pl.droidsonroids.gif.GifImageView
     android:layout_width="match_parent"
@@ -34,16 +40,6 @@
         android:contentDescription="@string/begging_cat_description"
         android:id="@+id/gifImageView" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="160px"
-        android:layout_height="200px"
-        app:srcCompat="@drawable/coal"
-        android:layout_marginRight="37dp"
-        android:layout_marginEnd="37dp"
-        android:layout_marginBottom="414dp"
-        android:layout_alignBottom="@+id/gifImageView"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+
 
 </RelativeLayout>
